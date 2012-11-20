@@ -37,3 +37,6 @@ stamp-h1
 missing
 depcomp
 install-sh
+
+#Build directory (for building inplace)
+/build/
