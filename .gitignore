@@ -34,3 +34,6 @@ ltmain.sh
 src/TAGS
 src/suricata
 stamp-h1
+missing
+depcomp
+install-sh
