@@ -145,6 +145,8 @@
 #include "detect-luajit.h"
 #include "detect-iprep.h"
 
+#include "detect-dynamic-string.h"
+
 #include "util-rule-vars.h"
 
 #include "app-layer.h"
@@ -4765,6 +4767,8 @@ void SigTableSetup(void) {
     DetectHttpUARegister();
     DetectLuajitRegister();
     DetectIPRepRegister();
+
+    DetectDynamicStringRegister();
 
     uint8_t i = 0;
     for (i = 0; i < DETECT_TBLSIZE; i++) {

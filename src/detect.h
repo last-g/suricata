@@ -1097,6 +1097,8 @@ enum {
     DETECT_LUAJIT,
     DETECT_IPREP,
 
+    DETECT_DYNAMIC_STRING,
+
     /* make sure this stays last */
     DETECT_TBLSIZE,
 };
