@@ -37,6 +37,7 @@ stamp-h1
 missing
 depcomp
 install-sh
+suricata.yaml
 
 #Build directory (for building inplace)
 /build/
